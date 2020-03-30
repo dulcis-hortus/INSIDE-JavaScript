@@ -19,3 +19,4 @@ console.dir(qux);  // undefined.
 // 생성자 함수의 경우 따로 return을 지정하지 않으면 새로 만들어진 객체가 배치된다.
 
 // '변수 = function(){}' 에서 변수가 넘겨받는 값은, function의 return값이다!!
+// + 그럴 때도 있고 아닐 때도 있다. 예를 들어 var A = function() {} 에서 변수 A가 할당받는 것은 "함수 그 자체"이다.
