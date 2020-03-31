@@ -42,7 +42,7 @@ objHello.call(myFunc);   // hello:)
 
 // saySomething 함수 정의
 // 인자가 3개 필요한 함수이며, return값으로 다시 함수를 내보낸다
-// return값 함수는 인자를 1개만 받으며, ???
+// return 함수는 객체(obj)의 메서드(methodName)(인자를 2개 받음)를 실행시켜 그 값을 return하는 함수이다.
 function saySomething(obj, methodName, name) {
   return (function(greeting) {
     return obj[methodName](greeting, name);
